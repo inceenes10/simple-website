@@ -16,7 +16,6 @@ import {
     TableRow,
     Paper,
     Grid,
-    Input,
     Button
 } from '@material-ui/core';
 
@@ -42,7 +41,11 @@ class App extends React.Component {
                                     <h1 className={styles.title}>Suchen und finden Sie Baudenkmäler in Wuppertal</h1>
                                 </Typing>
                                 <p>Auskunft über denkmalgeschützte Immobilien in Wuppertal</p>
-                                <Input placeholder='buraya bir şeyler yazılacak...'></Input>
+
+                                <input type="text" style={{
+                                    borderRadius: 5, height: 40,
+                                    border: 'none', outline: 'none', paddingLeft: 12
+                                }} placeholder='buraya bir şeyler yazılacak'/>
                                 <Button variant="contained">Default</Button>
                             </div>
                         </div>

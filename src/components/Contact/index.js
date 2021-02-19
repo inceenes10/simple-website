@@ -5,6 +5,7 @@ import { Snackbar, Button, TextField, Typography } from "@material-ui/core";
 import MuiAlert from '@material-ui/lab/Alert';
 import styles from './styles.module.sass';
 
+
 class Contact extends React.Component {
     constructor(props) {
         super(props);
